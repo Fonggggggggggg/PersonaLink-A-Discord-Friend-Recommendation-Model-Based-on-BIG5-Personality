@@ -6,9 +6,7 @@
 import warnings
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
-#import re
 import os
-import torch
 
 #It is normal that error will still appear, just ignore it
 warnings.filterwarnings('ignore')
@@ -55,7 +53,7 @@ class TraitsResult:
         return traitsResults
 
 # Create an instance of TraitsResult for testing the model
-#traits_result = TraitsResult(txt_file_path='fong0.0.txt', tokenizer=tokenizer, model=model)
+#traits_result = TraitsResult(txt_file_path='YOUR_USERNAME.txt', tokenizer=tokenizer, model=model)
 # Call the predict method on the instance
 #result = traits_result.predict()
 #print(result)
